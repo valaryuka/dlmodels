@@ -1,1 +1,90 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/index.css">}
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="tab active" onclick="op(event)">Models</div>
+        <div class="tab" onclick="op(event)">Motion</div>
+    </div>
+<div class="row">
+    <div class="col-2">
+        Div izquierdo
+    </div>
+    <div class="col-7">
+        <div id="model_d" class="model-s">
+
+            <div class="ca-titulo">Mother Series</div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Lucas</label>
+                <p>Details: PMD file</p>
+                <label class="dw" onclick="dload('Lucas')">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Claus</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Ness</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Ninten</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Paula</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Jeff</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Poo</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Duster</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Kumatora</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+
+            <div class="ca-titulo">Klonoa</div>
+            <div class="char-ta"><img src="paris.jpg">
+                <label>Klonoa</label>
+                <p>Details: PMD file</p>
+                <label class="dw">DL</label>
+            </div>
+
+        </div>
+        <div id="motion_d" style="display:none">
+            <div class="char-ta">
+                <label>Wess' Dance</label>
+                <p>Details: VMD file</p>
+                <label class="dw">DL</label>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        Div derecho
+    </div>
+</div>
+<iframe hidden id="iframe"></iframe>
+</body>
+</html>
